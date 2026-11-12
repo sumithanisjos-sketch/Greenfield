@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admission & Enquiry | Greenfield College</title><link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header"><nav class="navbar container" aria-label="Main navigation">
+  <a class="brand" href="index.html"><span class="brand-mark">G</span> Greenfield <small>COLLEGE</small></a>
+  <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+  <div class="nav-links"><a href="index.html">Home</a><a href="courses.html">Courses</a><a class="active" href="admission.html">Admission</a><a href="contact.html">Contact</a><a class="nav-cta" href="#enquiry">Enquire Now</a></div>
+</nav></header>
+<main>
+  <section class="page-hero"><div class="container"><p class="eyebrow">ADMISSIONS 2026–27</p><h1>Take the first step</h1><p>Read the basic admission process and send an enquiry to our team.</p></div></section>
+  <section class="section container admission-layout">
+    <div><p class="eyebrow">HOW TO APPLY</p><h2>Simple admission process</h2>
+      <div class="steps">
+        <div class="step"><span>01</span><div><h3>Choose a course</h3><p>Review the course details and select the programme you are interested in.</p></div></div>
+        <div class="step"><span>02</span><div><h3>Send an enquiry</h3><p>Fill in your contact details and preferred course in the form.</p></div></div>
+        <div class="step"><span>03</span><div><h3>Speak with admissions</h3><p>Contact the college to confirm eligibility, documents, fees and deadlines.</p></div></div>
+        <div class="step"><span>04</span><div><h3>Submit your application</h3><p>Follow the official application process shared by the college.</p></div></div>
+      </div>
+      <div class="info-panel"><h3>Important</h3><p>Eligibility, required certificates, fees and application dates vary by programme. Please confirm the latest details with the college office.</p></div>
+    </div>
+    <div class="form-card" id="enquiry"><p class="eyebrow">WE'RE HERE TO HELP</p><h2>Admission enquiry</h2><p class="form-intro">Enter your details. Fields marked * are required.</p>
+      <form id="enquiryForm">
+        <label for="studentName">Student name *</label><input id="studentName" name="studentName" type="text" placeholder="Enter your full name" required>
+        <label for="email">Email address *</label><input id="email" name="email" type="email" placeholder="name@example.com" required>
+        <label for="phone">Mobile number *</label><input id="phone" name="phone" type="tel" inputmode="numeric" pattern="[0-9 +()-]{8,16}" placeholder="Enter your mobile number" required>
+        <label for="course">Course interested in *</label><select id="course" name="course" required><option value="">Select a course</option><option>BCA</option><option>B.Com</option><option>BBA</option><option>B.Sc Computer Science</option></select>
+        <label for="message">Your question</label><textarea id="message" name="message" rows="4" placeholder="Type your question (optional)"></textarea>
+        <button class="button button-primary button-full" type="submit">Submit Enquiry</button>
+        <p class="form-note" id="formMessage" role="status" aria-live="polite">Demo form: connect a backend or form service to receive enquiries.</p>
+      </form>
+    </div>
+  </section>
+</main>
+<footer class="footer"><div class="container footer-inner"><p>© 2026 Greenfield College. Demo website for academic project.</p><p>Learning today, leading tomorrow.</p></div></footer><script src="js/script.js"></script>
+</body></html>
